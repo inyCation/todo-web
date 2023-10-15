@@ -44,7 +44,7 @@ function displayItems() {
         todoList = local_todo;
         for (let i = 0; i < todoList.length; i++) {
             let { item, dueDate } = todoList[i];
-            newHtml += `<div> <span> ${item} </span> <span> ${dueDate} </span>  <button id="delete" onclick="removeItem(${i})"> Delete </button> </div>`;
+            newHtml += `<div class="todo-display" > <span> ${i+1}. ${item} </span> <span> ${dueDate} </span>  <button id="delete" onclick="removeItem(${i})"> Delete </button> </div>`;
         }
     }
     containerElement.innerHTML = newHtml;
