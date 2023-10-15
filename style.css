@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+main{
+    background-color: cadetblue;
+    width: 40vw;
+    height: auto;
+
+    position: fixed;
+    top: 30vh;
+    left: 30vw;
+    padding: 2rem; 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+main .input_container input{
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #000;
+}
+main .input_container button img{
+    width: 2rem;
+    height: 2rem;
+}
+
+main .todo_container{
+    margin-top: 2rem;
+}
+main .todo_container #delete{
+    background: none;
+    outline: none;
+    border: none
+}
