@@ -35,7 +35,7 @@ A simple TODO website that allows you to manage your tasks. All tasks are stored
     <picture>
       <img src="https://github.com/inyCation/todo-web/blob/fa0e0527ee6689dc2ec39ff669fae5f9fcfd07a5/assets/small-screen.png" height="128">
     </picture>
-    <h1 align="center">Large-Screen</h1>
+    <h1 align="center">Small-Screen</h1>
   </a>
 </p>
 
