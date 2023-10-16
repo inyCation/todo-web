@@ -44,14 +44,17 @@ function displayItems() {
         todoList = local_todo;
         for (let i = 0; i < todoList.length; i++) {
             let { item, dueDate } = todoList[i];
-            newHtml += `<div class="todo-display" > <span> ${i+1}. ${item} </span> <span> ${dueDate} </span>  <button id="delete" onclick="removeItem(${i})"> Delete </button> </div>`;
+            newHtml += `<div class="todo-display" >  <span> ${i+1}. ${item} </span> <span> ${dueDate} </span>  <button  class="button-3" id="delete" onclick="removeItem(${i})"> Delete </button> </div>`;
         }
     }
     containerElement.innerHTML = newHtml;
 }
 
 function removeItem(index) {
-    todoList.splice(index, 1);
-    addToLocalStorage();
-    displayItems();
+    let confirmation = confirm("Are You Sure?");
+    if(confirmation){
+        todoList.splice(index, 1);
+        addToLocalStorage();
+        displayItems();
+    }
 }

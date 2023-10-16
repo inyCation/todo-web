@@ -8,35 +8,47 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    background-color: cadetblue;
 }
 
-
 main{
-    background-color: cadetblue;
     width: 40vw;
     height: auto;
 
     position: fixed;
-    top: 30vh;
+    top: 15vh;
     left: 30vw;
+    
     padding: 2rem; 
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
 }
-main .input_container input{
-    background: none;
-    outline: none;
-    border: none;
-    border-bottom: 2px solid #000;
+main > h2{
+    font-size: 2rem;
+    text-decoration: underline;
+    padding: 2rem;
 }
-main .input_container button{
+main .input_container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 120%;
+    line-height: 2.4rem;
+    flex-direction: row;
+
+    height: 2.5rem;
+    background-color: #ebeff6;
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+}
+main .input_container input{
+    
     background: none;
     outline: none;
     border: none;
-    border: 2px solid black;
-    padding: 0.2rem;
+    font-size: 1.1rem;
 }
 
 
@@ -56,15 +68,117 @@ main .input_container button,
 .todo-display{
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     width: 100%;
+    height: 2.5rem;
     margin-top: 1rem;
+    background-color: #ebeff6;
+    border-radius: 0.5rem;
+}
+
+/* CSS */
+.button-54 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-54:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  .button-54 {
+    padding: 0.25em 0.75em;
+  }
+}
+
+
+/* CSS */
+.button-3 {
+  appearance: none;
+  background-color: #2ea44f;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  margin: .4rem;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-3:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.button-3:hover {
+  background-color: #2c974b;
+}
+
+.button-3:focus {
+  box-shadow: rgba(164, 46, 46, 0.4) 0 0 0 3px;
+  outline: none;
+}
+
+.button-3:disabled {
+  background-color: #94d3a2;
+  border-color: rgba(27, 31, 35, .1);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+.button-3:active {
+  background-color: #e01111;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+
+
+@media screen and (max-width: 480px)  {
     
 }
 
-#delete{
-    background: none;
-    outline: none;
-    border: none;
-    border: 2px solid black;
-    padding: 0.1rem;
-}
+
+@media screen and (max-width: 480px) {
+    main{
+        top: 14vh;
+        left: 0;
+        width: 100%;
+    }
+    main .input_container{
+        padding: 0 1.4rem;
+        
+    }
+    .todo-display{
+        width: 98vw;
+        height: auto;
+    }
+}   
