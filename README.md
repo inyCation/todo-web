@@ -42,9 +42,12 @@ A simple TODO website that allows you to manage your tasks. All tasks are stored
 
 ## Contributing
 If you'd like to contribute to this project, please follow these steps:
-1.Fork the repository.
-2.Create a new branch for your feature or bug fix.
-3.Make your changes.
-4.Commit your changes.
-5.Push to your branch.
-6.Open a Pull Request to the main branch of this repository.
+
+<ul>
+   <li>Fork the repository.</li>
+   <li>Create a new branch for your feature or bug fix.</li>
+   <li>Make your changes.</li>
+   <li>Commit your changes.</li>
+   <li>Push to your branch.</li>
+   <li>Open a Pull Request to the main branch of this repository.</li>
+</ul>
