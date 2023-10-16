@@ -19,7 +19,7 @@ function addToDo() {
     let todoDate = dateElement.value;
 
 
-    if (todoItem !== "" && todoDate !== "") {
+    if (todoItem !== "") {
         todoList.push({ item: todoItem, dueDate: todoDate });
     } else {
         alert("Fill Out All Details");
