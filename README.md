@@ -21,7 +21,7 @@ A simple TODO website that allows you to manage your tasks. All tasks are stored
 2. Start managing your tasks and enjoy the simplicity of this TODO website.
 
 ## Screenshots
-![Large-screen](assets/large-screen.png)
+![Large-screen](https://github.com/inyCation/todo-web/blob/c8560f677b72888036fc0dd2265527f039d3712b/assets/large-screen.png)
 ![Small-screen](assets/small-screen.png)
 
 ## Contributing
