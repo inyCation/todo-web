@@ -17,10 +17,12 @@ A simple TODO website that allows you to manage your tasks. All tasks are stored
 ## Usage
 
 1. Open live url of this repo:
-   ```shell https://todo-webb.netlify.app ```shell
+   ```https://todo-webb.netlify.app```
 2. Start managing your tasks and enjoy the simplicity of this TODO website.
 
 ## Screenshots
+![Large-screen](assets/large-screen.png)
+![Small-screen](assets/small-screen.png)
 
 ## Contributing
  If you'd like to contribute to this project, please follow these steps:
